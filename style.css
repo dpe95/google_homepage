@@ -19,13 +19,11 @@ a {
 .sign-in {
     background-color: #1a73e8;;
     color: white;
-    border-radius: 5px;
+    border-radius: 4px;
     height: 13px;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding: 12px 27px;
     border: none;
-    margin-top: 6px;
-    margin-right: 8px;
+    margin: 6px 8px 0 6px;
 }
 
 img {
@@ -34,7 +32,7 @@ img {
     margin-right: auto;
     width: 250px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .search-bar{
@@ -43,7 +41,7 @@ img {
 }
 
 .search-bar-container {
-    width: 500px;
+    width: 550px;
     display: flex;
     justify-content: center;
     border: 0.1px solid;
@@ -52,7 +50,7 @@ img {
 }
 
 .bar {
-    width: 400px;
+    width: 450px;
     background-color: transparent;
     height: 40px;
     border: none;
@@ -62,13 +60,27 @@ img {
 .bottom-button-container {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .bottom-btn {
     border-radius: 4px; 
-    margin-top: 25px; 
-    margin-right: 10px; 
-    padding: 10px; 
+    margin: 20px 10px 40px 0;
+    padding: 12px; 
     border: none;
-    background-color: rgb(245, 243, 243);
+    color: rgb(74, 75, 75);
+    background-color: rgb(245, 243, 243, 0.5);
 }
+
+.bottom-navbar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    background: #f1f2f3;
+}
+
+.bottom-navbar-item {
+    color: rgb(123, 124, 124);
+}
+
