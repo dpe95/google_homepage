@@ -39,11 +39,21 @@ img {
     justify-content: center;
 }
 
-.bar {
-    width: 550px;
-    background-color: transparent;
+.search-bar-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid;
+    border-color: rgb(210, 214, 214);
     border-radius: 30px;
+}
+
+.bar {
+    width: 450px;
+    background-color: transparent;
     height: 40px;
+    border: none;
+    outline: none;
 }
 
 .bottom-button-container {
