@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     padding: 12px;
     text-decoration: none;
@@ -75,13 +80,17 @@ img {
 .bottom-navbar-container {
     display: flex;
     margin: 30px 0 0 0;
-    justify-content: center;
     background: #f1f2f3;
     align-content: center;
     padding: 10px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .bottom-navbar-item {
     color: rgb(123, 124, 124);
+    padding: 40px 12px 10px 12px;
 }
+
 
