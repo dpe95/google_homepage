@@ -46,7 +46,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 260px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -58,6 +58,7 @@ img {
 
 .search-bar-container {
     width: 80%;
+    max-width: 700px;
     display: flex;
     justify-content: center;
     border: 0.1px solid;
@@ -66,7 +67,7 @@ img {
 }
 
 .bar {
-    width: 80%;
+    width: 90%;
     background-color: transparent;
     height: 40px;
     border: none;
