@@ -48,6 +48,7 @@ img {
 .search-bar-container {
     width: 550px;
     display: flex;
+
     justify-content: center;
     border: 0.1px solid;
     border-color: rgb(210, 214, 214);
@@ -55,7 +56,7 @@ img {
 }
 
 .bar {
-    width: 450px;
+    width: 430px;
     background-color: transparent;
     height: 40px;
     border: none;
