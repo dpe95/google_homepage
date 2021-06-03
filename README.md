@@ -1,1 +1,1 @@
-edited the sign in button, google logo, and search bar
+edited the apps button and tried to add microphone to search bar
