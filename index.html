@@ -10,12 +10,12 @@
     </head>
     <body>
         <nav class="navbar">
-            <a href="">About</a>
-            <a href="">Store</a>
+            <a class="nav-item" href="">About</a>
+            <a class="nav-item" href="">Store</a>
             <span class="navspacer"></span>
-            <a href="">Gmail</a>
-            <a href="">Images</a>
-            <a href=""><span class="material-icons-outlined">apps</span></a>
+            <a class="nav-item" href="">Gmail</a>
+            <a class="nav-item" href="">Images</a>
+            <a class="apps-icon" href=""><span class="material-icons-outlined">apps</span></a>
             <a href="" class="sign-in">Sign in</a>
         </nav>
         <div class="logobox">
@@ -23,25 +23,31 @@
         </div>
         <div class="search-bar">
             <div class="search-bar-container">
-                <span class="material-icons-outlined" style="position: absolute; left: 1%;">
-                    search
+                <a style="margin-top: 10px;" href="">
+                    <span class="material-icons-outlined" style="margin-top: 10px; position: relative; left: 1%;">
+                        search
                     </span>
+                </a>
                 <input class="bar" type="text">
-                <span class="material-icons-outlined" style="position: absolute; right: 1%;">
-                    mic
-                </span>  
+                <a style="margin-top: 10px;" href="">
+                    <span class="material-icons-outlined" style="margin-top: 10px; position: relative; right: 1%;">
+                        mic
+                    </span>  
+                </a>
             </div>
         </div>
         <nav class="bottom-button-container">
-            <a href="" class="bottom-btn">Google Search</a>
-            <a href="" class="bottom-btn">I'm Feeling Lucky</a>
+            <a href="" class="bottom-btn-left">Google Search</a>
+            <a href="" class="bottom-btn-right">I'm Feeling Lucky</a>
         </nav>
         <nav class="bottom-container">
-            <div bottom-navbar-box>
+            <div class="bottom-navbar-box1" style="position: fixed; left: 10%;">
                 <a href="" class="bottom-navbar-item">Advertising</a>
                 <a href="" class="bottom-navbar-item">Business</a>
                 <a href="" class="bottom-navbar-item">How Search works</a>
-                <span class="navspacer"></span>
+            </div>
+            <span class="navspacer"></span>
+            <div class="bottom-navbar-box2" style="position: fixed; right: 10%;">
                 <a href="" class="bottom-navbar-item">Privacy</a>
                 <a href="" class="bottom-navbar-item">Terms</a>
                 <a href="" class="bottom-navbar-item">Settings</a>

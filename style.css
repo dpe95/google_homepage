@@ -3,13 +3,18 @@ body {
     padding: 0;
 }
 
-a {
-    padding: 12px;
+.nav-item {
+    padding: 6px;
     text-decoration: none;
     color: rgb(36, 35, 35);
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 6px;
+    margin: 14px 5px 0 5px;
+    transition: text-decoration;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
 }
 
 .navspacer {
@@ -29,6 +34,12 @@ a {
     padding: 12px 27px;
     border: none;
     margin: 12px 15px 0 6px;
+    text-decoration: none;
+    transition: background-color 200ms ease;
+}
+
+.sign-in:hover {
+    background-color: #4d93ee;
 }
 
 img {
@@ -46,9 +57,8 @@ img {
 }
 
 .search-bar-container {
-    width: 550px;
+    width: 80%;
     display: flex;
-
     justify-content: center;
     border: 0.1px solid;
     border-color: rgb(210, 214, 214);
@@ -56,7 +66,7 @@ img {
 }
 
 .bar {
-    width: 430px;
+    width: 80%;
     background-color: transparent;
     height: 40px;
     border: none;
@@ -69,13 +79,32 @@ img {
     flex-direction: row;
 }
 
-.bottom-btn {
+.bottom-btn-left {
     border-radius: 4px; 
-    margin: 20px 10px 40px 0;
+    margin: 20px 10px 40px 10px;
     padding: 12px; 
     border: none;
     color: rgb(74, 75, 75);
     background-color: rgb(245, 243, 243, 0.5);
+    transition: background-color 200ms ease;
+}
+
+.bottom-btn-left:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+.bottom-btn-right {
+    border-radius: 4px; 
+    margin: 20px 10px 40px 10px;
+    padding: 12px; 
+    border: none;
+    color: rgb(74, 75, 75);
+    background-color: rgb(245, 243, 243, 0.5);
+    transition: padding 200ms ease;
+}
+
+.bottom-btn-right:hover {
+    background-color: rgb(245, 243, 243);
 }
 
 .bottom-container {
@@ -90,10 +119,6 @@ img {
     width: 100%;
 }
 
-.bottom-navbar-box {
-    display: flex;
-    justify-content: center;
-}
 
 .bottom-navbar-item {
     color: rgb(103, 104, 104);
@@ -103,11 +128,22 @@ img {
 
 .material-icons-outlined {
     font-family: 'Material Icons', serif;
-    align-self: center;
     padding: 0 10px 0 12px;
     color: rgb(109, 107, 107);
     opacity: 1;
     font-size: x-large;
 }
 
+.apps-icon {
+    text-decoration: none;
+    align-self: center;
+    margin: 15px 0 0 0;
+}
 
+a {
+    text-decoration: none;
+}
+
+@media all and (max-width: 675px) {
+    .bottom-navbar-box2 { display: none; }
+}
