@@ -28,7 +28,7 @@ a {
     height: 13px;
     padding: 12px 27px;
     border: none;
-    margin: 6px 8px 0 6px;
+    margin: 12px 15px 0 6px;
 }
 
 img {
@@ -95,12 +95,18 @@ img {
 }
 
 .bottom-navbar-item {
-    color: rgb(123, 124, 124);
+    color: rgb(103, 104, 104);
     padding: 40px 12px 10px 12px;
 }
 
+
 .material-icons-outlined {
-    font-family: 'Material Icons';
+    font-family: 'Material Icons', serif;
+    align-self: center;
+    padding: 0 10px 0 12px;
+    color: rgb(109, 107, 107);
+    opacity: 1;
+    font-size: x-large;
 }
 
 
