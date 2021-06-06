@@ -1,1 +1,1 @@
-think I finished it!
+This is a practice, static, google homepage
